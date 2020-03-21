@@ -6,14 +6,13 @@ const staticAssets = [
     './images/unhappy-pug.jpg'
 ];
 
+
 self.addEventListener('install', async event => {
-    // console.log('install');
     const cache = await caches.open('news-static');
     cache.addAll(staticAssets);
 })
 
 self.addEventListener('fetch', event => {
-    // console.log('fetch');
     const req = event.request;
     const url = new URL(req.url);
 

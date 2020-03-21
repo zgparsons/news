@@ -1,0 +1,22 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "News web app utilising free news API - https://newsapi.org/ :sunglasses:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgparsons/news.git"
+  },
+  "author": "Zachary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgparsons/news/issues"
+  },
+  "homepage": "https://github.com/zgparsons/news#readme",
+  "dependencies": {
+    "workbox-sw": "^5.1.1"
+  }
+}
