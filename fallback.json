@@ -1,0 +1,10 @@
+{
+    "articles": [
+        {
+            "title": "🚫📰 Failed to fetch articles...",
+            "url": "",
+            "urlToImage": "images/unhappy-pug.jpg",
+            "description": "Try loading the page again when you are online."
+        }
+    ]
+}
